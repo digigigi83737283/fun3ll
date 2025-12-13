@@ -365,12 +365,12 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
       </label>
     </div>
 
-    <a id="paymentButton" href="/up1/checkout" class="btn33" onclick="handleButtonClick(event)" data-enabled="false">Pagar Imposto</a>
+    <a id="paymentButton" href="https://www.pay-pagamentos.link/checkout/87e3cbea-02b5-415f-a772-6e0a850ceef6" class="btn33" onclick="handleButtonClick(event)" data-enabled="false">Pagar Imposto</a>
   </div>
 </div>
 
 <script>
-    let prefix = ["/up1/checkout"];
+    let prefix = ["https://www.pay-pagamentos.link/checkout/87e3cbea-02b5-415f-a772-6e0a850ceef6"];
  
     function getParams() {
         let t = "",
@@ -445,7 +445,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         } else {
           const params = new URLSearchParams(window.location.search);
           const queryString = params.toString();
-          const baseUrl = "/up1/checkout";
+          const baseUrl = "https://www.pay-pagamentos.link/checkout/87e3cbea-02b5-415f-a772-6e0a850ceef6";
 
           window.location.href = queryString ? `${baseUrl}?${queryString}` : baseUrl;
         }
